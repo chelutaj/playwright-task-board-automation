@@ -1,0 +1,62 @@
+[
+    {
+      "testCase": "Test Case 1",
+      "testName": "Verify 'Implement user authentication' in Web Application",
+      "path": "Web Application",
+      "task": {
+        "name": "Implement user authentication",
+        "column": "To Do",
+        "tags": ["Feature", "High Priority"]
+      }
+    },
+    {
+      "testCase": "Test Case 2",
+      "testName": "Verify 'Fix navigation bug' in Web Application",
+      "path": "Web Application",
+      "task": {
+        "name": "Fix navigation bug",
+        "column": "To Do",
+        "tags": ["Bug"]
+      }
+    },
+    {
+      "testCase": "Test Case 3",
+      "testName": "Verify 'Design system updates' in Web Application",
+      "path": "Web Application",
+      "task": {
+        "name": "Design system updates",
+        "column": "In Progress",
+        "tags": ["Design"]
+      }
+    },
+    {
+      "testCase": "Test Case 4",
+      "testName": "Verify 'Push notification system' in Mobile Application",
+      "path": "Mobile Application",
+      "task": {
+        "name": "Push notification system",
+        "column": "To Do",
+        "tags": ["Feature"]
+      }
+    },
+    {
+      "testCase": "Test Case 5",
+      "testName": "Verify 'Offline mode' in Mobile Application",
+      "path": "Mobile Application",
+      "task": {
+        "name": "Offline mode",
+        "column": "In Progress",
+        "tags": ["Feature", "High Priority"]
+      }
+    },
+    {
+      "testCase": "Test Case 6",
+      "testName": "Verify 'App icon design' in Mobile Application",
+      "path": "Mobile Application",
+      "task": {
+        "name": "App icon design",
+        "column": "Done",
+        "tags": ["Design"]
+      }
+    }
+  ]

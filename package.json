@@ -1,0 +1,39 @@
+{
+  "name": "pw-task-board-automation",
+  "version": "1.0.0",
+  "description": "Automated testing framework for Task Board application using Playwright.",
+  "author": "Denis Chebotarev",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-ui": "npx playwright test --ui",
+    "report": "npx playwright show-report",
+    "lint": "prettier --check '**/*.{ts,tsx,js,json,md}' && eslint .",
+    "format": "prettier --write '**/*.{ts,tsx,js,json,md}'",
+    "check-for-outdated-dependencies": "npm outdated && ncu",
+    "update-package-json-and-install-updates": "ncu -u && npm install",
+    "docker-up": "docker-compose up --build",
+    "docker-down": "docker-compose down",
+    "clean": "rm -rf node_modules && rm -rf .auth && npm install",
+    "setup": "npx playwright install && npx playwright install-deps"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "allure-playwright": "^3.0.7",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "npm-check-updates": "^17.1.11",
+    "playwright": "^1.49.1",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "cross-env": "7.0.3"
+  }
+}

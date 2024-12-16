@@ -1,0 +1,15 @@
+printWidth: 120
+tabWidth: 2
+useTabs: false
+singleQuote: true
+trailingComma: 'es5'
+bracketSpacing: true
+arrowParens: "avoid"
+endOfLine: "auto"
+proseWrap: 'preserve'
+quoteProps: 'as-needed'
+htmlWhitespaceSensitivity: 'css'
+vueIndentScriptAndStyle: true
+embeddedLanguageFormatting: 'auto'
+jsxSingleQuote: false
+bracketSameLine: false
