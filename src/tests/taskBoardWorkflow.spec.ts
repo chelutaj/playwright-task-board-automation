@@ -16,6 +16,9 @@ interface TestCase {
 // Extract test cases from test data
 const testCases: TestCase[] = testData;
 
+  // test.use({ storageState: { cookies: [], origins: [] } });
+
+
 test.describe('Task Verification Suite', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
