@@ -1,7 +1,6 @@
 import { test } from '../page-objects/base';
 import testData from '../data/testData.json';
 
-// Interface for test cases
 interface TestCase {
   testCase: string;
   testName: string;
@@ -13,7 +12,6 @@ interface TestCase {
   };
 }
 
-// Extract test cases from test data
 const testCases: TestCase[] = testData;
 
   // test.use({ storageState: { cookies: [], origins: [] } });
