@@ -1,4 +1,4 @@
-import { test as setup } from './src/page-objects/base';
+import { test as setup } from '../page-objects/base';
 import { config } from 'dotenv';
 config();
 
